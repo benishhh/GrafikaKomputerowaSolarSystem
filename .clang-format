@@ -1,0 +1,47 @@
+# Plik clang-format wygenerowany przez program Visual Studio
+
+# Opcje stylu w tym pliku to próba możliwie wiernej replikacji
+# bieżącej konfiguracji formatowania środowiska IDE dostępnej za pomocą pozycji Narzędzia > Opcje. Następujące
+# opcje stylu należy jednak zweryfikować:
+# AfterClass; AfterControlStatement; AfterEnum; AfterFunction; AfterNamespace; 
+# AfterStruct; AfterUnion
+
+AccessModifierOffset: -4
+AlignAfterOpenBracket: DontAlign
+AllowShortBlocksOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
+BasedOnStyle: LLVM
+BraceWrapping:
+  AfterClass: false    # TODO: Zweryfikuj
+  AfterControlStatement: false    # TODO: Zweryfikuj
+  AfterEnum: false    # TODO: Zweryfikuj
+  AfterFunction: false    # TODO: Zweryfikuj
+  AfterNamespace: false    # TODO: Zweryfikuj
+  AfterStruct: false    # TODO: Zweryfikuj
+  AfterUnion: false    # TODO: Zweryfikuj
+  BeforeCatch: true
+  BeforeElse: true
+  IndentBraces: false
+  SplitEmptyFunction: true
+  SplitEmptyRecord: true
+BreakBeforeBraces: Custom
+ColumnLimit: 0
+Cpp11BracedListStyle: false
+FixNamespaceComments: false
+IndentCaseLabels: false
+IndentPPDirectives: None
+IndentWidth: 4
+MaxEmptyLinesToKeep: 10
+NamespaceIndentation: All
+PointerAlignment: Left
+SortIncludes: false
+SortUsingDeclarations: false
+SpaceAfterCStyleCast: false
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeParens: ControlStatements
+SpaceInEmptyParentheses: false
+SpacesInCStyleCastParentheses: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+TabWidth: 4
+UseTab: true
