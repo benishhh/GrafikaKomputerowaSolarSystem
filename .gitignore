@@ -6,3 +6,4 @@ Debug/
 *.vcxproj.filters
 *.vcxproj.user
 README.md
+glad.c

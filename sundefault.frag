@@ -40,7 +40,7 @@ vec4 spotLight()
 	float innerCone = 0.9f;
 
 	// ambient lighting
-	float ambient = 0.15f;
+	float ambient = 1.0f;
 
 	// diffuse lighting
 	vec3 normal = normalize(Normal);
